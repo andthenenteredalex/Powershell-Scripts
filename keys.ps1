@@ -11,7 +11,7 @@ $key = 'software\microsoft\currentversion\run'
 #}
 #
 
-$reg = [Microsoft.Win32.RegistryKey]::OpenRemoteBaseKey('LocalMachine', 'PC994L175')
+$reg = [Microsoft.Win32.RegistryKey]::OpenRemoteBaseKey('LocalMachine', 'Computer1')
 $regkey = $reg.opensubkey($key)
 
 $computer1 = 'Computer1'
